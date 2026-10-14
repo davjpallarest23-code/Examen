@@ -1,0 +1,60 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #063197;
+}
+
+.nav-estilos {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 268px;
+  min-height: 100vh;
+  padding: 0 0 24px;
+  background: #1e293b;
+}
+
+.usuario {
+  min-height: 100px;
+  padding: 18px 14px;
+  margin-bottom: 8px;
+  background: #265198;
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-estilos a {
+  display: block;
+  padding: 12px 14px;
+  color: #cbd5e1;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-estilos a:hover,
+.nav-estilos a[aria-current='page'] {
+  color: #fff;
+}
+
+.app-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.app-header {
+  height: 101px;
+  background: #335a9a;
+}
+
+.app-content {
+  min-height: calc(100vh - 101px);
+  padding: 24px 35px;
+  background: #0e265f;
+  color: #e2e8f0;
+}
+
+.app-content h1 {
+  font-size: 20px;
+}
+
